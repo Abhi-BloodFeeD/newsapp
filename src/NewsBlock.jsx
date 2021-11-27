@@ -8,6 +8,7 @@ const NewsBlock = ({fetchUrl,header}) => {
     useEffect(()=>{
         async function fetch(){
             const request = await axios.get(fetchUrl);
+            console.log(fetchUrl);
             console.log(request.data.articles);
             setNews(request.data.articles);
             return request;
@@ -17,7 +18,7 @@ const NewsBlock = ({fetchUrl,header}) => {
 
     return (
         <>
-        <h1 className="header">{header}</h1>
+        <h1 className="header">{header} PAGE BY - ABHINAV BHARDWAJ</h1>
         <div className =' news_container'>
             <div className="news_block">
                 {news.map(content=>(
