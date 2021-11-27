@@ -1,5 +1,9 @@
 ![gg](https://user-images.githubusercontent.com/40716543/143683771-48804c2f-ac45-4c2a-a528-8bf35e587f9c.PNG)
 
+## CURRENTLY NOT WORKING ON HOSTING BECAUSE OF API Policy Change . (Work on local hosting)
+
+# Simple React+firebased based project fetch news and host it 
+
 ## Available Scripts
 
 In the project directory, you can run:
